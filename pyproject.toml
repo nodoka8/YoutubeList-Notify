@@ -1,0 +1,12 @@
+[project]
+name = "youtube-playlist-discord-bot"
+version = "0.1.0"
+description = "Monitor YouTube playlist RSS and post to Discord"
+authors = [{ name = "Your Name", email = "your@email.com" }]
+dependencies = [
+    "discord.py>=2.3.2",
+    "feedparser>=6.0.10",
+    "aiohttp>=3.9.3",
+    "python-dotenv>=1.0.0"
+]
+requires-python = ">=3.10"
